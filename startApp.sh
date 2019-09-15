@@ -1,0 +1,1 @@
+sudo java -jar target/JtechyWeb-1.0-SNAPSHOT.jar > jtechy.log &

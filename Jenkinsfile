@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clean') {
             steps {
-                sh 'sudo fuser -k 80/tcp'
+                sh './stopApp.sh'
             }
         }
         stage('build') {
@@ -14,7 +14,7 @@ pipeline {
         stage("Staging") {
             steps {
                 withEnv(['JENKINS_NODE_COOKIE=dontkill']) {
-                    sh 'sudo java -jar /home/ec2-user/.jenkins/workspace/JtechyWeb_master/target/JtechyWeb-1.0-SNAPSHOT.jar > jtechy.log &'
+                    sh './startApp.sh'
                 }
             }
         }
