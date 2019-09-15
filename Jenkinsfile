@@ -9,7 +9,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'mvn spring-boot:run > jtechy.log &'
-                sh 'disown'
             }
         }
     }
