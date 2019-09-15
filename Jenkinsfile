@@ -6,6 +6,12 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'mvn spring-boot:run > jtechy.log &'
+                sh 'disown'
+            }
+        }
     }
 }
 
