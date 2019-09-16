@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven_sudo'
+            image 'maven:3.3.3'
             args '-p 80:8090'
         }
     }
