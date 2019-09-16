@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven_sudo'
-            args '-u root:root'
+            args '-u root:root -p 80:80'
         }
     }
     stages {
@@ -20,7 +20,7 @@ pipeline {
             steps {
                 withEnv(['JENKINS_NODE_COOKIE=dontkill']) {
                     sh label: '', script: 'echo "run JtechyWeb"'
-                    sh label: '', script: 'sudo java -jar target/JtechyWeb-1.0-SNAPSHOT.jar'
+                    sh label: '', script: 'sudo java -jar target/JtechyWeb-1.0-SNAPSHOT.jar &'
                 }
             }
         }
