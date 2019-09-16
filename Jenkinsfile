@@ -1,5 +1,10 @@
 pipeline {
-    agent { docker { image 'maven_sudo' } }
+    agent {
+        docker {
+            image 'maven_sudo'
+            args '-u root:root'
+        }
+    }
     stages {
         stage('clean') {
             steps {
