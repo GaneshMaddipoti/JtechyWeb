@@ -15,7 +15,7 @@ pipeline {
             steps {
                 withEnv(['JENKINS_NODE_COOKIE=dontkill']) {
                     sh label: '', script: 'echo "run JtechyWeb"'
-                    sh label: '', script: 'java -jar target/JtechyWeb-1.0-SNAPSHOT.jar'
+                    sh label: '', script: 'sudo java -jar target/JtechyWeb-1.0-SNAPSHOT.jar'
                 }
             }
         }
