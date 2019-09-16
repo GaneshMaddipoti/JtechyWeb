@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clean') {
             steps {
-                sh './stopApp.sh'
+                sh 'echo "clean workspace"'
             }
         }
         stage('build') {
@@ -11,10 +11,10 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
-        stage("Staging") {
+        stage("deploy") {
             steps {
                 withEnv(['JENKINS_NODE_COOKIE=dontkill']) {
-                    sh './startApp.sh'
+                    sh 'run JtechyWeb'
                 }
             }
         }
