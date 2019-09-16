@@ -5,7 +5,6 @@ pipeline {
             steps {
                 sh label: '', script: 'echo "clean"'
                 sh label: '', script: 'fuser -k 8090/tcp &'
-                sh label: '', script: 'disown'
             }
         }
         stage('build') {
@@ -20,7 +19,6 @@ pipeline {
             steps {
                 sh label: '', script: 'echo "deploy"'
                 sh label: '', script: 'java -jar target/JtechyWeb-1.0-SNAPSHOT.jar &'
-                sh label: '', script: 'disown'
             }
         }
     }
