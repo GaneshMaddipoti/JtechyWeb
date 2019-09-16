@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clean') {
             steps {
-                sh 'echo "clean workspace"'
+                sh label: '', script: 'echo "clean"'
             }
         }
         stage('build') {
@@ -14,7 +14,7 @@ pipeline {
         stage("deploy") {
             steps {
                 withEnv(['JENKINS_NODE_COOKIE=dontkill']) {
-                    sh 'run JtechyWeb'
+                    sh label: '', script: 'echo "run JtechyWeb"'
                 }
             }
         }
