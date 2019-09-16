@@ -20,7 +20,7 @@ pipeline {
             steps {
                 withEnv(['JENKINS_NODE_COOKIE=dontkill']) {
                     sh label: '', script: 'echo "run JtechyWeb"'
-                    sh label: '', script: 'nohup java -jar target/JtechyWeb-1.0-SNAPSHOT.jar > jtechy.log &'
+                    sh label: '', script: 'java -jar target/JtechyWeb-1.0-SNAPSHOT.jar'
                 }
             }
         }
