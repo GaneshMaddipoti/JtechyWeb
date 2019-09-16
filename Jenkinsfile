@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven_sudo'
-            args '-p 80:80'
+            args '-p 80:8090'
         }
     }
     stages {
