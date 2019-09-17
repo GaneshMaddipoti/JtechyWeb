@@ -41,11 +41,11 @@ header, main, footer {
 }
 
 .bgcolor {
-	background-color: #232f3e !important;
+	background-color: #0061ab !important;
 }
 
 .cardbgcolor{
-	background-color: orange !important;
+	background-color: #d0dae0 !important;
 }
 
 table.fullbordered>thead>tr, table.fullbordered>tbody>tr {
@@ -58,23 +58,22 @@ table.fullbordered>thead>tr, table.fullbordered>tbody>tr {
 }
 
 .btn {
-	background-color: orange;
-	color: #232f3e;
+	background-color: #0061ab;
 }
 
 .btn:HOVER {
-	background-color: #ff9d00;
+	background-color: #0061ab;
 	opacity: .8;
 }
 
 .card-150h:HOVER {
-	background-color: orange;
+	background-color: #0061ab;
 	opacity: .8;
 	color: white;
 }
 
 .btn:FOCUS {
-	background-color: #ff9d00;
+	background-color: #0061ab;
 }
 
 .card-150h {
@@ -83,7 +82,7 @@ table.fullbordered>thead>tr, table.fullbordered>tbody>tr {
 }
 
 .logo {
-	color: orange !important;
+
 }
 
 .fieldTitle{
@@ -104,7 +103,7 @@ hr.filedNameHr {
 }
 
 .card-action{
-	background-color: orange !important;
+	background-color: #d0dae0 !important;
 }
 
 .card-action a {
