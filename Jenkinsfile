@@ -11,7 +11,7 @@ pipeline {
             steps {
                 sh label: '', script: 'echo "build"'
                 sh label: '', script: 'pwd'
-                sh label: '', script: 'cd /home/ec2-user/.jenkins/workspace/JtechyWeb_1'
+                sh label: '', script: 'cd /home/ec2-user/.jenkins/workspace/JtechyWeb'
                 sh label: '', script: 'mvn clean install'
             }
         }
