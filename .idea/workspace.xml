@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858abff3-fc39-4704-9914-8de125e78c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/jtechy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JtechyWeb-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JtechyWeb-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <list id="a5aa0c00-08bf-4d18-a595-43520e36e9b2" name="Local" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,12 +12,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-      <option value="module" />
-    </option>
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
@@ -168,7 +141,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572237431001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572237691824" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -478,13 +451,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569231954037</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Deleting binary files">
+      <created>1572237411602</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1572237411602</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Modified">
+      <created>1572237556878</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1572237556878</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17802057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17802057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,7 +488,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34166667" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.48055556" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.48055556" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -559,7 +547,9 @@
     <MESSAGE value="Eighth" />
     <MESSAGE value="Modified jenkinsfile" />
     <MESSAGE value="Added all the files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all the files" />
+    <MESSAGE value="Deleting binary files" />
+    <MESSAGE value="Modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
