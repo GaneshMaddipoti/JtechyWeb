@@ -29,13 +29,13 @@ public class CourseService {
         return courseRepository.findByActive(true);
     }
 
-    public Iterable<String> courseCategories() {
-        Iterable<String> categories = courseRepository.findDistinctCategories();
+    public List<String> courseCategories() {
+        List<String> categories = courseRepository.findDistinctCategories();
         return categories;
     }
 
-    public Iterable<Course> coursesByCategory(@PathVariable String category) {
-        Iterable<Course> categories = courseRepository.findByCategory(category);
+    public List<Course> coursesByCategory(@PathVariable String category) {
+        List<Course> categories = courseRepository.findByCategory(category);
         return categories;
     }
 
@@ -44,6 +44,7 @@ public class CourseService {
         List<Field> fields = mapper.readValue(course.getDetails(), new TypeReference<List<Field>>() {
         });
         course.setFields(fields);
+        course.setDetails(null);
         return course;
     }
 
